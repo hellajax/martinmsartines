@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Misterio de Martín y Diego</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>El Misterio de Martín Martínez y Diego</h1>
+            <h2>¿Cuidado capilar? ¿Skibidi Toilet? O tal vez... algo más.</h2>
+        </header>
+
+        <section class="intro" id="intro-section">
+            <h3>¿Quién es Martín?</h3>
+            <p>Algo extraño sucede con Martín Martínez y su mejor amigo paraguayo Diego. Hablan de cuidado capilar y Skibidi Toilet, pero cada vez que mencionan algo, sucede algo... inesperado.</p>
+            <button onclick="revealSecret()">¿Quieres saber más?</button>
+            <button onclick="showGif()">Martín se va de cuerpo</button> <!-- Nuevo botón -->
+            <!-- Imagen de Martín diciendo Skibidi -->
+            <img src="martinskibidi.jpg" alt="Martín diciendo Skibidi" class="img-martin" id="martin-img">
+        </section>
+        
+
+        <section class="cuidado-capilar">
+            <h3>Los secretos de su cuidado capilar</h3>
+            <p>Martín cuida su cabello de una forma especial, que solo revela a quienes se atreven a descubrir su secreto.</p>
+            <ul id="secret-list">
+                <li><strong>Hidratación profunda:</strong> ¿Es eso realmente agua...?</li>
+                <li><strong>Evitar el calor excesivo:</strong> Pero... ¿qué hay del calor en su mirada?</li>
+                <li><strong>El toque paraguayo de Diego:</strong> ¿Un ritual de la yerba mate o algo más?</li>
+            </ul>
+        </section>
+
+        <section class="skibidi-toilet" id="skibidi-section">
+            <h3>Skibidi Toilet: Un fenómeno paranormal</h3>
+            <p>Martín y Diego no solo ven Skibidi Toilet, ellos lo viven. El ritmo, las risas... ¿o es algo más?</p>
+            <!-- Imagen del juego Skibidi -->
+            <img src="ss.jpg" alt="Captura del juego Skibidi Toilet" class="img-skibidi">
+            <!-- Imagen de Martín feliz con auriculares -->
+            <img src="feliz.jpg" alt="Martín feliz con auriculares" class="img-feliz">
+            <!-- GIF de Google bailando -->
+            <div class="gif-container" id="gif-container">
+                <img src="baile.gif" alt="Google bailando" id="google-gif" class="hidden">
+            </div>
+        </section>
+
+        <footer>
+            <p>Martín y Diego: Entre lo visible y lo invisible. ¿Te atreves a seguir su camino?</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
